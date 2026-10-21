@@ -49,3 +49,9 @@ Shoutout to  DR. SHIRSHENDU ROY for providing academic information on Systolic a
 ## Outputs
 - `c`
 
+# Verification
+
+
+
+# Physical Design
+
