@@ -11,7 +11,7 @@ Typical matrix multiplation follows this sequence
 
 Systolic Matrix Mutlipliers utilize the concept of data recycling and data movement between processing units to improve compute speed and power. The following youtube video demonstrates the movement of data in a Systollic matrix Multiplier https://www.youtube.com/watch?v=cmy7LBaWuZ8 (This video helped me alot at the beginning)
 
-# Data Movement Video Demonstration
+# Data Movement Video Demonstration of the implemented system
 
 https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f  
 
@@ -19,9 +19,12 @@ https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f
 
 
 # Introduction
+This project is a N×N systolic array matrix multiplier (but for the examples i show a 3x3) written in SystemVerilog. A systolic array is a grid of identical processing elements (PEs) that pass data to their neighbours every clock cycle. Each value is read from memory once and reused as it moves through the array, which is why this structure is used in AI accelerators such as Google’s TPU.
 
-This project will be the construction of a systolic Matrix Multiplier, which I will be using to build a TPU later on in the semester (Most likely during winter break).  
+The design is output-stationary: rows of A flow left to right, columns of B flow top to bottom, and each PE multiplies the values passing through it and keeps a running sum of one output element. Delay registers on the inputs stagger the data so matching values meet in the right PE on the right cycle. Two select signals (S0 and S1) switch between tiles of A and B, so the 3×3 array computes a 6×6 result one 3×3 block at a time.
 
+Inputs are signed 8-bit integers (INT8) and results are accumulated in 32 bits. 
+  
 To start off, lets investigate the Architecture that I have constructed after doing some research
 
 # Datapath Architecture
@@ -32,16 +35,19 @@ To start off, lets investigate the Architecture that I have constructed after do
 
                                                             FIGURE 3
   
-Shoutout to  DR. SHIRSHENDU ROY for providing academic information on Systolic arrays as it helped me defined my architecture.
+
+      
+Big shoutout to  **DR. SHIRSHENDU ROY** for providing academic information on Systolic arrays as it helped me defined my architecture.
 
 
-  ## Parameters
+
+  ### Parameters
 - `N` = 3
 - `DATA_W` = 8
 - `ACC_W` = 32
 - `K_MAX` = 16
 
-## Inputs
+### Inputs
 - `clk`
 - `rst_n`
 - `s0`
@@ -52,7 +58,7 @@ Shoutout to  DR. SHIRSHENDU ROY for providing academic information on Systolic a
 - `a_we`, `a_wbank`, `a_wtile`, `a_wk`, `a_wdata`
 - `b_we`, `b_wbank`, `b_wtile`, `b_wk`, `b_wdata`
 
-## Outputs
+### Outputs
 - `c`
 
 # Control Logic
