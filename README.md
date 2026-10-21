@@ -17,5 +17,24 @@ To start off, lets investigate the Architecture that I have constructed after do
   
 Shoutout to  DR. SHIRSHENDU ROY for providing academic information on Systolic arrays as it helped me defined my architecture.
 
-  
+
+  ## Parameters
+- `N` = 3
+- `DATA_W` = 8
+- `ACC_W` = 32
+- `K_MAX` = 16
+
+## Inputs
+- `clk`
+- `rst_n`
+- `s0`
+- `s1`
+- `k`
+- `in_valid`
+- `acc_clr`
+- `a_we`, `a_wbank`, `a_wtile`, `a_wk`, `a_wdata`
+- `b_we`, `b_wbank`, `b_wtile`, `b_wk`, `b_wdata`
+
+## Outputs
+- `c`
 
