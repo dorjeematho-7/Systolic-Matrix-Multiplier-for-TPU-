@@ -5,13 +5,17 @@ The primary motivation for developing this architecture is to address the immens
 
 Typical matrix multiplation follows this sequence  
   
-<img width="1605" height="742" alt="image" src="https://github.com/user-attachments/assets/bc0608f7-c1a1-4d2d-9f8a-9ae55462d5c3" />
+<img width="1605" height="742" alt="image" src="https://github.com/user-attachments/assets/bc0608f7-c1a1-4d2d-9f8a-9ae55462d5c3" />  
+  
+                                                            FIGURE 1
 
 Systolic Matrix Mutlipliers utilize the concept of data recycling and data movement between processing units to improve compute speed and power. The following youtube video demonstrates the movement of data in a Systollic matrix Multiplier https://www.youtube.com/watch?v=cmy7LBaWuZ8 (This video helped me alot at the beginning)
 
 # Data Movement Video Demonstration
 
-https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f
+https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f  
+
+                                                              FIGURE 2
 
 
 # Introduction
@@ -23,7 +27,7 @@ To start off, lets investigate the Architecture that I have constructed after do
 <img width="2501" height="2370" alt="8d84fcb298973bf48573e393d10fe043207867ae11a45580cb117e8e94583bf3" src="https://github.com/user-attachments/assets/65fc417c-0ef5-4c39-acc4-cd825c54e531" />
 
 
-                                                            FIGURE 1
+                                                            FIGURE 3
 
   
   
