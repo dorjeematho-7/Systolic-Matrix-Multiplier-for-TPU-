@@ -9,6 +9,10 @@ Typical matrix multiplation follows this sequence
 
 Systolic Matrix Mutlipliers utilize the concept of data recycling and data movement between processing units to improve compute speed and power. The following youtube video demonstrates the movement of data in a Systollic matrix Multiplier https://www.youtube.com/watch?v=cmy7LBaWuZ8 (This video helped me alot at the beginning)
 
+# Data Movement Video Demonstration
+
+https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f
+
 
 # Introduction
 
