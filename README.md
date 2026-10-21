@@ -26,7 +26,7 @@ To start off, lets investigate the Architecture that I have constructed after do
 
 # Datapath Architecture
 
-<img width="2501" height="2370" alt="8d84fcb298973bf48573e393d10fe043207867ae11a45580cb117e8e94583bf3" src="https://github.com/user-attachments/assets/65fc417c-0ef5-4c39-acc4-cd825c54e531" />
+<img width="2000" height="1900" alt="8d84fcb298973bf48573e393d10fe043207867ae11a45580cb117e8e94583bf3" src="https://github.com/user-attachments/assets/65fc417c-0ef5-4c39-acc4-cd825c54e531" />
 
 
                                                             FIGURE 3
