@@ -45,6 +45,8 @@ To start off, lets investigate the Architecture that I have constructed after do
       
 Big shoutout to  **DR. SHIRSHENDU ROY** for providing academic information on Systolic arrays as it helped me defined my architecture.
 
+Link to his article: https://digitalsystemdesign.in/systolic-matrix-multiplier/?srsltid=AYCX9vLirNlyNZZZifU2sXZRRwUCW0qnUKk8uGzstvZG2AaEvf6vDVec
+
 
 
   ### Parameters
