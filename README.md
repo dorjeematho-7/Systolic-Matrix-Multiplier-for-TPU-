@@ -13,7 +13,10 @@ Systolic Matrix Mutlipliers utilize the concept of data recycling and data movem
 
 # Data Movement Video Demonstration of the implemented system
 
-https://github.com/user-attachments/assets/1e3b6a05-9f5c-4da1-99bc-5040cb8c225f  
+
+https://github.com/user-attachments/assets/c0cffba9-0a1e-4498-ab5a-b2f69f707514
+
+  
 
                                                               FIGURE 2
 
@@ -29,7 +32,10 @@ To start off, lets investigate the Architecture that I have constructed after do
 
 # Datapath Architecture
 
-<img width="2000" height="1900" alt="SYSTOLICIMAGE" src="https://github.com/user-attachments/assets/71de39fe-4b51-4822-a992-c7fa566b4704" />
+
+<img width="2000" height="1900" alt="image" src="https://github.com/user-attachments/assets/4f92a00e-bbd3-4b14-80d7-4666c31656fb" />
+
+
 
 
 
