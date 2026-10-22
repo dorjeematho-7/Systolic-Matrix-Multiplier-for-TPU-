@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/c0cffba9-0a1e-4498-ab5a-b2f69f707514
 
 
 # Introduction
-This project is a N×N systolic array matrix multiplier (but for the examples i show a 3x3) written in SystemVerilog. A systolic array is a grid of identical processing elements (PEs) that pass data to their neighbours every clock cycle. Each value is read from memory once and reused as it moves through the array, which is why this structure is used in AI accelerators such as Google’s TPU.
+This project is a N×N systolic array matrix multiplier written in SystemVerilog. A systolic array is a grid of identical processing elements (PEs) that pass data to their neighbours every clock cycle. Each value is read from memory once and reused as it moves through the array, which is why this structure is used in AI accelerators such as Google’s TPU.
 
 The design is output-stationary: rows of A flow left to right, columns of B flow top to bottom, and each PE multiplies the values passing through it and keeps a running sum of one output element. Delay registers on the inputs stagger the data so matching values meet in the right PE on the right cycle. Two select signals (S0 and S1) switch between tiles of A and B, so the 3×3 array computes a 6×6 result one 3×3 block at a time.
 
