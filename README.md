@@ -72,7 +72,7 @@ Big shoutout to  **DR. SHIRSHENDU ROY** for providing academic information on Sy
 - <img width="1722" height="553" alt="image" src="https://github.com/user-attachments/assets/fd34972a-c1d2-4dfa-834e-84fcafe0c81c" />
 
 # Verification
-
+- Up until now I've been using SystemVerilog to write testbenches and using ModelSim to evaluate them, well now its time I learn a new skill and write testbenches with cocotb, so this project provides motivation for new verification methods!
 
 
 # Physical Design
