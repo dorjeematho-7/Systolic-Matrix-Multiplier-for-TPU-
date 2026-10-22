@@ -68,6 +68,8 @@ Big shoutout to  **DR. SHIRSHENDU ROY** for providing academic information on Sy
 - `c`
 
 # Control Logic
+- The state diagram here is pretty simple, we need three states, LOAD, COMPUTE, and OUTPUT. The busy signal is high during compute and output, and so its important to mention now that if data A and B arrive while busy is high, write enable is gated with the state == LOAD, and so the data A and B are essentially dropped. In Compute the Counter runs. While count < K, feed column k = count from the buffers into the skew logic. After that, feed zeros while the wavefront drains. For the OUTPUT state, Accumulators hold their values. I then shall make a testbench to read C values
+- <img width="1722" height="553" alt="image" src="https://github.com/user-attachments/assets/fd34972a-c1d2-4dfa-834e-84fcafe0c81c" />
 
 # Verification
 
