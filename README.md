@@ -14,9 +14,9 @@ Systolic Matrix Mutlipliers utilize the concept of data recycling and data movem
 # Data Movement Video Demonstration of the implemented system
 
 
-https://github.com/user-attachments/assets/c0cffba9-0a1e-4498-ab5a-b2f69f707514
 
-  
+https://github.com/user-attachments/assets/67f2d23c-4b97-4ddf-9cef-b960929c4041
+
 
                                                               FIGURE 2
 
@@ -45,7 +45,8 @@ To start off, lets investigate the Architecture that I have constructed after do
       
 Big shoutout to  **DR. SHIRSHENDU ROY** for providing academic information on Systolic arrays as it helped me defined my architecture.
 
-Link to his article: https://digitalsystemdesign.in/systolic-matrix-multiplier/?srsltid=AYCX9vLirNlyNZZZifU2sXZRRwUCW0qnUKk8uGzstvZG2AaEvf6vDVec
+Link to his article:  
+https://digitalsystemdesign.in/systolic-matrix-multiplier/?srsltid=AYCX9vLirNlyNZZZifU2sXZRRwUCW0qnUKk8uGzstvZG2AaEvf6vDVec
 
 
 
@@ -76,12 +77,6 @@ Link to his article: https://digitalsystemdesign.in/systolic-matrix-multiplier/?
 # Verification
 - Up until now I've been using SystemVerilog to write testbenches and using ModelSim to evaluate them, well now its time I learn a new skill and write testbenches with cocotb, so this project provides motivation for new verification methods!
 
-
-# Physical Design
-
-
-
-
-# Results
+# Results (for a 3x3 example)
 <img width="590" height="361" alt="image" src="https://github.com/user-attachments/assets/67a9edb8-f499-470c-9a72-695d904ca361" />
 
