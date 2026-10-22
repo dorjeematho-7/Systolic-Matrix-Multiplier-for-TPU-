@@ -15,7 +15,11 @@ Systolic Matrix Mutlipliers utilize the concept of data recycling and data movem
 
 
 
-https://github.com/user-attachments/assets/67f2d23c-4b97-4ddf-9cef-b960929c4041
+
+
+https://github.com/user-attachments/assets/9696aa53-d634-4b2d-9adc-84d57e8905b6
+
+
 
 
                                                               FIGURE 2
