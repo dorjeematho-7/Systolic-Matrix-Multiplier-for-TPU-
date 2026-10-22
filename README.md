@@ -1,5 +1,7 @@
 # Systolic-Matrix-Multiplier-for-TPU-  
 
+# Update: 2026/10/22: There are still some bug fixes to be pushed, and further verification needed, but the general cases are working for this project
+
 # Background
 The primary motivation for developing this architecture is to address the immense processing demands of modern data-intensive workloads. Because matrix multiplication is the foundational operation for AI Compute, general purpose processors are too slow and use too much power for these specific tasks. Implementing this system provides a high-performance, low-latency hardware solution optimized for spatial data flow. I also want to build a TPU so this is my first step.  
 
