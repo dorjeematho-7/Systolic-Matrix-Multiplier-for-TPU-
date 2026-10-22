@@ -79,7 +79,17 @@ https://digitalsystemdesign.in/systolic-matrix-multiplier/?srsltid=AYCX9vLirNlyN
 - <img width="1722" height="553" alt="image" src="https://github.com/user-attachments/assets/fd34972a-c1d2-4dfa-834e-84fcafe0c81c" />
 
 # Verification
-- Up until now I've been using SystemVerilog to write testbenches and using ModelSim to evaluate them, well now its time I learn a new skill and write testbenches with cocotb, so this project provides motivation for new verification methods!
+- Up until now I've been using SystemVerilog to write testbenches and using ModelSim to evaluate them, well now its time I learn a new skill and write testbenches with cocotb, so this project provides motivation for new verification methods!  
+### Control Flow Waveform  
+<img width="817" height="235" alt="image" src="https://github.com/user-attachments/assets/24b27203-3d0e-4c6d-9734-ffc6c79f1bf4" /> 
+  
+### Skewed waveform
+<img width="831" height="215" alt="image" src="https://github.com/user-attachments/assets/96ffebdd-d68e-4980-9f87-3641c2fc1dfa" />  
+  
+### Accumulators waveform  
+<img width="830" height="192" alt="image" src="https://github.com/user-attachments/assets/b02a28fc-c5ff-4e39-b8a0-6452e30ff014" />  
+
+
 
 # Results 
 
