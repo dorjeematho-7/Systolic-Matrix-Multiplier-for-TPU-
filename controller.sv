@@ -1,10 +1,12 @@
 // Sequencer that im thinking of is essentially: LOAD -> COMPUTE -> OUTPUT -> LOAD.
 // LOAD: the host or whatever writes A/B. Array is fed zeros. start moves to COMPUTE and
 //clears the accumulators on that same cycle.
-// COMPUTE: thennn for compute we count runs 0..LAST. While count < K, stream k = count from the
+//COMPUTE: thennn for compute we count runs 0..LAST. While count < K, stream k = count from the
 //buffers; after that, feed zeros while the wavefront drains.
+
 //The final k enters at K-1 and needs 2(N-1) more cycles to reach
 //PE(N-1,N-1), so LAST = K + 2(N-1) - 1.
+
 // OUTPUT: One cycle with done high, then back to LOAD. The accumulators
 //hold C until the next start clears them.
 
