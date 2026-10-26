@@ -56,8 +56,8 @@ https://digitalsystemdesign.in/systolic-matrix-multiplier/?srsltid=AYCX9vLirNlyN
 
 
 
-  ### Parameters
-- `N` = 3
+  ### Example Parameters
+- `N` = 3 
 - `DATA_W` = 8
 - `ACC_W` = 32
 - `K_MAX` = 16
